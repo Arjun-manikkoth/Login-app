@@ -1,0 +1,14 @@
+<%-include("header")-%>
+  <div class="text-center parent-div ">
+   <div class="container-md py-4">
+    <h4>Welcome...! to the homepage</h4>
+    <h6><%=locals.user?user:"User"%></h6>
+     <div class="buttons">
+      <button type="button" class="btn btn-success btn-sm button">
+        <a class="logout" href="/route/logout">Logout</a>
+      </button>
+     </div>
+    
+   </div>
+  </div>
+<%-include("footer")-%>
